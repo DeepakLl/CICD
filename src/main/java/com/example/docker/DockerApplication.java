@@ -13,6 +13,8 @@ public class DockerApplication {
     public String getMessage(){
         return "Hello Docker!";
     }
+
+
      public static void main(String[] args) {
         SpringApplication.run(DockerApplication.class, args);
     }
